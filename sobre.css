@@ -1,0 +1,82 @@
+.header2 {
+  background-color: var(--azul-escuro);
+  min-height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-header img{
+  width: 150px;
+  margin: 20px;
+}
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 40pt;
+  margin: 20px;
+  color: var(--white);
+  transition: 0.02s ease-in-out;
+  cursor: pointer;
+ filter: drop-shadow(.10em .20em 0.3em);
+}
+h1:hover {
+  color: var(--verde-bebe);
+}
+
+.content-sobre {
+  background-image: url(./img/fundo1.png);
+  margin: 0;
+  min-height: 640px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.content-img img {
+  width: 360px;
+  margin: 20px;
+  border-bottom-left-radius: 150px;
+  box-shadow: -15px 10px 1rem var(--verde-bebe);
+  box-shadow: -40px 10px 3rem var(--azul-escuro);
+  position: relative;
+  left: 135%;
+  top: -32%;
+}
+.content-img p {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: var(--darklava);
+  margin: 20px;
+  position: relative;
+  top: 5%;
+  left: 15%; 
+  padding: 30px 20px;
+  border-radius: 50px;
+  border: 1px solid var(--silver);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  background-color: transparent; 
+}
+.content-img2 img {
+  width: 320px;
+  margin: 20px;
+  border-bottom-right-radius: 150px;
+  box-shadow: 10px -15px 1rem var(--verde-bebe);
+  box-shadow: 40px 10px 3rem var(--azul-escuro);
+  position: relative;
+  top: 40%;
+  right: 80%;
+}
+.content-img2 p {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: var(--darklava);
+  margin: 25px;
+  position: relative;
+  top: -5%;
+  left: -10%;
+  padding: 30px 20px;
+  border-radius: 50px;
+  border: 1px solid var(--silver);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  background-color: transparent;
+}

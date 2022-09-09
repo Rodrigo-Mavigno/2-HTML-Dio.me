@@ -1,0 +1,84 @@
+.header3 {
+  background-color: var(--azul-escuro);
+  min-height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-header3 img {
+  width: 150px;
+  margin: 20px;
+  filter: drop-shadow(.70em .70em 0.9em var(--white));
+}
+.table {
+  margin: 20px;
+  height: 30%;
+  position: relative;
+  top: 2%;
+  display: flex;
+  align-items: center;
+}
+.table table { 
+  margin: 5px;
+  width: 100%;
+}
+.table thead { 
+  background-color: var(--bright-cerulean);
+  font-family: 'Arial', sans-serif;
+  font-size: 16pt;
+  color: var(--white);
+  cursor: pointer;
+}
+.table thead:hover{
+  color: var(--azul-escuro);
+}
+.table tbody tr {
+  background-color: var(--white);
+  font-family: 'Arial', sans-serif;
+  font-size: 14pt; 
+}
+.table tbody td{
+  text-align: center;
+}
+.table tbody tr:nth-child(even) td {
+  background-color: var(--silver);  
+}
+.table tbody tr:hover td {
+  background-color: var(--darklava);
+  color: var(--white);
+  cursor: pointer;
+}
+.table tfoot td, a tfoot{
+  background-color: var(--white);
+  font-family: 'Arial', sans-serif;
+  font-size: 14pt;
+  text-align: end;
+  cursor: pointer;
+}
+.table tfoot a {
+  text-decoration: none;
+  margin: 20px;
+}
+.table tfoot :hover {
+  background-color: var(--darklava);
+}
+.table  a :hover {
+  background-color: var(--darklava);
+  color: var(--white);
+}
+
+.content-horario {
+  background-image: url(./img/fundo1.png);
+  margin: 0;
+  min-height: 640px;
+  padding: 0;
+}
+.content-horario h2, p {
+  font-family: 'Arial', sans-serif;
+  font-size: 22pt;
+  margin: 30px;
+  color: var(--azul-escuro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,114 @@
+.header4 {
+  background-color: var(--azul-escuro);
+  min-height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-contato {
+  background-image: url(./img/fundo1.png);
+  margin: 0;
+  min-height: 640px;
+  padding: 0;
+}
+.content-contato form label {
+  
+  margin: 40px;
+  padding: 0 5px 5px 5px;
+}
+.content-contato form h4 {
+  font-family: 'Arial', sans-serif;
+  color: var(--black);
+  max-width: 400px;
+  margin: 20px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+.content-contato input, textarea {
+  font-family: 'Arial', sans-serif;
+  font-size: 11pt;
+  width: 400px;
+  padding: 10px;
+}
+.enviar button {
+  background: var(--silver);
+  height: 40px;
+  width: 150px;
+  position: relative;
+  top: 67px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.enviar button:hover {
+  background-color: var(--azul-escuro);
+  color: var(--white);
+}
+.limpar button {
+  background: var(--silver);
+  height: 40px;
+  width: 150px;
+  position: relative;
+  left: 270px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.limpar button:hover {
+  background-color: var(--azul-escuro);
+  color: var(--white);
+}
+.content-contato textarea {
+  width: 400px;
+  height: 100px;
+  line-height: 20px;
+}
+.content-contato form {
+  position: absolute;
+  top: 258px;
+  width: 510px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid var(--silver);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: transparent;
+}
+.content-contato h2 {
+  margin: 20px;
+  width: 550px;
+  font-family: 'Arial' sans-serif;
+  color: var(--azul-escuro);
+}
+.content-contato p {
+  margin: 20px;
+  width: 470px;
+  font-family: 'Arial' sans-serif;
+  color: var(--black);
+  font-size: 15pt;
+}
+/* ---  map  --- */
+.map {
+  position: relative;
+  left: 580px;
+  top: 160px;
+}
+/* --- contatos --- */
+.infor i {
+  position: relative;
+  left: 55%;
+  top: -340px;
+  color: blue;
+  padding: 20px;
+  font-size: 16pt;
+
+  display: flex;
+}
+.agendamento img{
+  width: 150px;
+  margin: 20px;
+}
+

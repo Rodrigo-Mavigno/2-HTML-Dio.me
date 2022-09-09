@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./sobre.css">
+    <link rel="stylesheet" href="./contato.css">
+    <!-- ICON -->
+    <script src="https://kit.fontawesome.com/3461fc847c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <div class="container">
+            <input type="checkbox" id="checkbox-menu">
+
+            <label for="checkbox-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+             <div class="barras">
+                <nav> 
+                    <a href="./index.html"><div class="link">Home</div></a>
+                    <a href="./sobre.html"><div class="link">Sobre</div></a>
+                    <a href="./horario.html"><div class="link">Horarios</div></a>
+                    <a href="./contato.html"><div class="link">Contato</div></a>
+                </nav>
+            </div> 
+          </div>  
+        </div>
+
+        <div class="main">
+            <div class="header4">
+                <h1>Contato</h1>
+                <div class="agendamento">
+                    <img src="./img/agendamento.png" alt="">
+                </div>
+            </div>
+    
+            <div class="content-contato">
+               <h2>AGENDE SUA CONSULTA OU EXAME AGORA.</h2>
+               <P>Você pode agendar sua consulta ou exame preenchendo o formulário de contato. </P>
+
+               <form action="" name="form" method="post">
+                    <h4>PREENCHA O FORMULÁRIO E NOSSA EQUIPE ENTRARÁ EM CONTATO DENTRO DE INSTANTES PARA REALIZAR O SEU AGENDAMENTO.</h4>
+
+                    <label class="nome">
+                        <input type="text" name="nome" placeholder="Nome" required="required">
+                    </label>
+                    <label class="email">
+                        <input type="email" name="email" placeholder="Email" required="required">
+                    </label>
+                    <label class="assunto">
+                        <input type="text" name="assunto" placeholder="Assunto" required="required">
+                    </label>
+                    <label class="mensagem">
+                        <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    </label>
+                    <label class="enviar">
+                        <button type="submit">Enviar</button> 
+                    </label>
+                    <label class="limpar">
+                        <button type="reset">Limpar</button>
+                    </label>
+                </form>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.659027824139!2d-48.64150728440899!3d-26.97769510241642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8ca027b9eee5d%3A0xe9a45f6420f0135b!2sAv.%20do%20Estado%20Dalmo%20Vieira%2C%202525%20-%20Centro%2C%20Balne%C3%A1rio%20Cambori%C3%BA%20-%20SC%2C%2088330-075!5e0!3m2!1sen!2sbr!4v1662698400392!5m2!1sen!2sbr" width="510" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="infor">
+                    <i class="fa-solid fa-square-phone"> (47)9.9999-9999 / (47)3333-3333</i>
+                    <i class="fa-solid fa-envelope"> contato@promais.com.br</i>
+                    <i class="fa-solid fa-location-dot"> AV DO ESTADO, 2525</i>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="foot-info"><p>Copyright &copy;PróMais 2022, Todos direitos reservados.</p></div>
+                <div class="footer-logo">
+                    <img src="./img/Logotipo-Promais-Clinica-Medica.png" alt="logo da PRÓMAIS">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
